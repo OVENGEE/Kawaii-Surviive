@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Digital Coloring book game.sln"
+    "dotnet.defaultSolution": "Kawaii-Surviive.sln"
 }
