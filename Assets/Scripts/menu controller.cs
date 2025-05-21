@@ -8,13 +8,20 @@ public class menucontroller : MonoBehaviour
     {
         menuCanvas.SetActive(false);// Hide the menu canvas at the start
     }
+    AudioManager audioManager;
+
+    private void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
 
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Tab))// Check if the tab key is pressed
+        if(Input.GetKeyDown(KeyCode.Escape))// Check if the Escape key is pressed
         {
-            if(!menuCanvas.activeSelf && PauseController.IsGamePaused)// Check if the menu is not active and the game is paused
+            audioManager.PlaySFX(audioManager.MenuPopup);
+            if (!menuCanvas.activeSelf && PauseController.IsGamePaused)// Check if the menu is not active and the game is paused
             {
                 return;
             }

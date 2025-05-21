@@ -13,6 +13,14 @@ PrefabInstance:
       value: BRUSH WEAPON (1) Variant
       objectReference: {fileID: 0}
     - target: {fileID: 6190942051932202428, guid: 951df14f4be329d4b8f62966f0f73721, type: 3}
+      propertyPath: m_Size.x
+      value: 0.58
+      objectReference: {fileID: 0}
+    - target: {fileID: 6190942051932202428, guid: 951df14f4be329d4b8f62966f0f73721, type: 3}
+      propertyPath: m_Size.y
+      value: 0.62
+      objectReference: {fileID: 0}
+    - target: {fileID: 6190942051932202428, guid: 951df14f4be329d4b8f62966f0f73721, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 4087275916903491185, guid: 607a572f92ebfc34ca28b7d5e300675c, type: 3}

@@ -6,6 +6,13 @@ public class Tabormenuoperator : MonoBehaviour
 public Image[] tabImages;// Array of tab images
 public GameObject[] pages;// Array of pages to be activated
 
+    AudioManager audioManager;
+
+    private void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
+
     void Start()
     {
         ActivateTab(0);// Activate the first tab by default
@@ -19,6 +26,7 @@ public GameObject[] pages;// Array of pages to be activated
             tabImages[i].color = Color.grey;// Change tab image color to grey
         }
         pages[tabNo].SetActive(true);// Activate the selected page
+        audioManager.PlaySFX(audioManager.ButtonClick);// Play button click sound
         tabImages[tabNo].color = Color.white;// Change the selected tab image color to white
     }
 }
