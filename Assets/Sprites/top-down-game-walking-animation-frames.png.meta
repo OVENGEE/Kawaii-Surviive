@@ -334,7 +334,16 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      top-down-game-walking-animation-frames_0: 6913790915443128618
+      top-down-game-walking-animation-frames_1: 5035617755465426165
+      top-down-game-walking-animation-frames_2: -4012241602359142513
+      top-down-game-walking-animation-frames_3: 3880555583601177278
+      top-down-game-walking-animation-frames_4: -3592225890588273697
+      top-down-game-walking-animation-frames_5: -9007709207026560878
+      top-down-game-walking-animation-frames_6: 540241502184520644
+      top-down-game-walking-animation-frames_7: -5119554883126982033
+      top-down-game-walking-animation-frames_8: 2879402696316534231
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
