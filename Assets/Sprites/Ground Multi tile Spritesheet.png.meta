@@ -1,0 +1,1053 @@
+fileFormatVersion: 2
+guid: 9525443cecdc4594687472f46271a7a5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2239972924342022809
+    second: Ground Multi tile Spritesheet_0
+  - first:
+      213: 1937702574446827976
+    second: Ground Multi tile Spritesheet_1
+  - first:
+      213: 2409967363844560793
+    second: Ground Multi tile Spritesheet_2
+  - first:
+      213: -8103434000667265152
+    second: Ground Multi tile Spritesheet_3
+  - first:
+      213: 9130352758257116953
+    second: Ground Multi tile Spritesheet_4
+  - first:
+      213: -1078481949785581480
+    second: Ground Multi tile Spritesheet_5
+  - first:
+      213: 2361464614836178744
+    second: Ground Multi tile Spritesheet_6
+  - first:
+      213: 2792504705403450865
+    second: Ground Multi tile Spritesheet_7
+  - first:
+      213: -8155424359745981332
+    second: Ground Multi tile Spritesheet_8
+  - first:
+      213: 2846487004064834515
+    second: Ground Multi tile Spritesheet_9
+  - first:
+      213: 9053881945285742720
+    second: Ground Multi tile Spritesheet_10
+  - first:
+      213: -7870175468351443189
+    second: Ground Multi tile Spritesheet_11
+  - first:
+      213: -561168179820559056
+    second: Ground Multi tile Spritesheet_12
+  - first:
+      213: 4497455857907414671
+    second: Ground Multi tile Spritesheet_13
+  - first:
+      213: 2245554171206469754
+    second: Ground Multi tile Spritesheet_14
+  - first:
+      213: -1203852579065271311
+    second: Ground Multi tile Spritesheet_15
+  - first:
+      213: 1783164200570394213
+    second: Ground Multi tile Spritesheet_16
+  - first:
+      213: 2420108392720675892
+    second: Ground Multi tile Spritesheet_17
+  - first:
+      213: 7278930589033029711
+    second: Ground Multi tile Spritesheet_18
+  - first:
+      213: -1146646331425359402
+    second: Ground Multi tile Spritesheet_19
+  - first:
+      213: -4457089895589311627
+    second: Ground Multi tile Spritesheet_20
+  - first:
+      213: 3488890607194558271
+    second: Ground Multi tile Spritesheet_21
+  - first:
+      213: -2644042028432255622
+    second: Ground Multi tile Spritesheet_22
+  - first:
+      213: -2484307886809649026
+    second: Ground Multi tile Spritesheet_23
+  - first:
+      213: -4522199713251915296
+    second: Ground Multi tile Spritesheet_24
+  - first:
+      213: -8863119132909438607
+    second: Ground Multi tile Spritesheet_25
+  - first:
+      213: -4958640413216863183
+    second: Ground Multi tile Spritesheet_26
+  - first:
+      213: 4933610389595672211
+    second: Ground Multi tile Spritesheet_27
+  - first:
+      213: -2816244254415532646
+    second: Ground Multi tile Spritesheet_28
+  - first:
+      213: -5468707810719390157
+    second: Ground Multi tile Spritesheet_29
+  - first:
+      213: -6369449703389946143
+    second: Ground Multi tile Spritesheet_30
+  - first:
+      213: 81177060744007286
+    second: Ground Multi tile Spritesheet_31
+  - first:
+      213: 8166942652048871103
+    second: Ground Multi tile Spritesheet_32
+  - first:
+      213: -1478630787367597149
+    second: Ground Multi tile Spritesheet_33
+  - first:
+      213: -8774437306924271392
+    second: Ground Multi tile Spritesheet_34
+  - first:
+      213: 2467976434163881289
+    second: Ground Multi tile Spritesheet_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ground Multi tile Spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 90
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99236edb18bf51f10800000000000000
+      internalID: 2239972924342022809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Multi tile Spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 72
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c9534e993a14ea10800000000000000
+      internalID: 1937702574446827976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Multi tile Spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 90
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9975d328c8ce17120800000000000000
+      internalID: 2409967363844560793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Multi tile Spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 72
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 087b761d5b1da8f80800000000000000
+      internalID: -8103434000667265152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Multi tile Spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 90
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9176ced757785be70800000000000000
+      internalID: 9130352758257116953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Multi tile Spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 90
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8581c5671667801f0800000000000000
+      internalID: -1078481949785581480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Multi tile Spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 90
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83f07fc3e8b95c020800000000000000
+      internalID: 2361464614836178744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Multi tile Spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 72
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f5fd27fb38f0c620800000000000000
+      internalID: 2792504705403450865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Multi tile Spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 90
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c64f5cc01cc12de80800000000000000
+      internalID: -8155424359745981332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Multi tile Spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 72
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d3ec0f49d0c08720800000000000000
+      internalID: 2846487004064834515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Multi tile Spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 54
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0805413e8a9d5ad70800000000000000
+      internalID: 9053881945285742720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Multi tile Spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 54
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0f2be80c1587c290800000000000000
+      internalID: -7870175468351443189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Multi tile Spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 54
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0350b8e73845638f0800000000000000
+      internalID: -561168179820559056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Multi tile Spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 72
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f863293364c2a6e30800000000000000
+      internalID: 4497455857907414671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Multi tile Spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 72
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7888aa0f9fc92f10800000000000000
+      internalID: 2245554171206469754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Multi tile Spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 54
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fb60e6257e0b4fe0800000000000000
+      internalID: -1203852579065271311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Multi tile Spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 54
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 566113f84621fb810800000000000000
+      internalID: 1783164200570394213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Multi tile Spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 54
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 434be0ac2c3f59120800000000000000
+      internalID: 2420108392720675892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Multi tile Spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 36
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f40e9082ec4f30560800000000000000
+      internalID: 7278930589033029711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Multi tile Spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 18
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d9f26c9c3b4610f0800000000000000
+      internalID: -1146646331425359402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Multi tile Spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 36
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57b8a69ca5c3522c0800000000000000
+      internalID: -4457089895589311627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Multi tile Spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 18
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3f4706b5870b6030800000000000000
+      internalID: 3488890607194558271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Multi tile Spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 36
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a75971ca8c97e4bd0800000000000000
+      internalID: -2644042028432255622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Multi tile Spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 18
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e70720ea327f58dd0800000000000000
+      internalID: -2484307886809649026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Multi tile Spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 36
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e90f38025bed31c0800000000000000
+      internalID: -4522199713251915296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Multi tile Spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 18
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 179f6f08b10eff480800000000000000
+      internalID: -8863119132909438607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Multi tile Spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 36
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13c0051f0de5f2bb0800000000000000
+      internalID: -4958640413216863183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Multi tile Spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 18
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39ec60c8284b77440800000000000000
+      internalID: 4933610389595672211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Multi tile Spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 36
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9dc3de85c0bae8d0800000000000000
+      internalID: -2816244254415532646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Multi tile Spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 18
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 336aaa9783f3b14b0800000000000000
+      internalID: -5468707810719390157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Multi tile Spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ee99b6dd3b2b97a0800000000000000
+      internalID: -6369449703389946143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Multi tile Spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 0
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67e8e8d4b16602100800000000000000
+      internalID: 81177060744007286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Multi tile Spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 0
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbe0c5c521fc65170800000000000000
+      internalID: 8166942652048871103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Multi tile Spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 0
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ab8ffc0229da7be0800000000000000
+      internalID: -1478630787367597149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Multi tile Spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 0
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e8f7d022cfea3680800000000000000
+      internalID: -8774437306924271392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Multi tile Spritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 0
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9459f50bd73004220800000000000000
+      internalID: 2467976434163881289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: dc792aa9333d43e4bb72bdacf123bcae
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Ground Multi tile Spritesheet_0: 2239972924342022809
+      Ground Multi tile Spritesheet_1: 1937702574446827976
+      Ground Multi tile Spritesheet_10: 9053881945285742720
+      Ground Multi tile Spritesheet_11: -7870175468351443189
+      Ground Multi tile Spritesheet_12: -561168179820559056
+      Ground Multi tile Spritesheet_13: 4497455857907414671
+      Ground Multi tile Spritesheet_14: 2245554171206469754
+      Ground Multi tile Spritesheet_15: -1203852579065271311
+      Ground Multi tile Spritesheet_16: 1783164200570394213
+      Ground Multi tile Spritesheet_17: 2420108392720675892
+      Ground Multi tile Spritesheet_18: 7278930589033029711
+      Ground Multi tile Spritesheet_19: -1146646331425359402
+      Ground Multi tile Spritesheet_2: 2409967363844560793
+      Ground Multi tile Spritesheet_20: -4457089895589311627
+      Ground Multi tile Spritesheet_21: 3488890607194558271
+      Ground Multi tile Spritesheet_22: -2644042028432255622
+      Ground Multi tile Spritesheet_23: -2484307886809649026
+      Ground Multi tile Spritesheet_24: -4522199713251915296
+      Ground Multi tile Spritesheet_25: -8863119132909438607
+      Ground Multi tile Spritesheet_26: -4958640413216863183
+      Ground Multi tile Spritesheet_27: 4933610389595672211
+      Ground Multi tile Spritesheet_28: -2816244254415532646
+      Ground Multi tile Spritesheet_29: -5468707810719390157
+      Ground Multi tile Spritesheet_3: -8103434000667265152
+      Ground Multi tile Spritesheet_30: -6369449703389946143
+      Ground Multi tile Spritesheet_31: 81177060744007286
+      Ground Multi tile Spritesheet_32: 8166942652048871103
+      Ground Multi tile Spritesheet_33: -1478630787367597149
+      Ground Multi tile Spritesheet_34: -8774437306924271392
+      Ground Multi tile Spritesheet_35: 2467976434163881289
+      Ground Multi tile Spritesheet_4: 9130352758257116953
+      Ground Multi tile Spritesheet_5: -1078481949785581480
+      Ground Multi tile Spritesheet_6: 2361464614836178744
+      Ground Multi tile Spritesheet_7: 2792504705403450865
+      Ground Multi tile Spritesheet_8: -8155424359745981332
+      Ground Multi tile Spritesheet_9: 2846487004064834515
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

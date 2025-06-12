@@ -24,15 +24,15 @@ using Unity.Cinemachine;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class NewMonoBehaviourScript : MonoBehaviour
+public class SaveController : MonoBehaviour
 {
     private string saveLocation;
     private Inventorycontroller inventorycontroller;// private StoryRocks storyRocks;
-   // private StoryRocks[] storyRocks;
+    private StoryRocks[] storyRocks;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-         InitializeComponents();//This method initializes the components of the script.
+        InitializeComponents();//This method initializes the components of the script.
         
         LoadGame();//This method loads the game data from the save file.
     }
@@ -42,7 +42,7 @@ public class NewMonoBehaviourScript : MonoBehaviour
         //Define save location
         saveLocation = Path.Combine(Application.persistentDataPath, "saveData.json");//Path.Combine is used to combine two strings into a single path string.
         inventorycontroller = FindAnyObjectByType<Inventorycontroller>();//FindAnyObjectByType is a method that finds any object of the specified type in the scene.
-        //storyRocks = FindAnyObjectByType<StoryRocks>();
+        storyRocks = FindObjectsByType<StoryRocks>(FindObjectsSortMode.None);
 
     }
 
@@ -52,12 +52,14 @@ public class NewMonoBehaviourScript : MonoBehaviour
         {
             playerPosition = GameObject.FindGameObjectWithTag("Player").transform.position,//This line finds the player object in the scene and gets its position.
             inventorySaveData = inventorycontroller.GetInventoryItems(),//This line gets the inventory items from the inventory controller.
-           // storyRockSaveData = GetStoryRocksState()
+            storyRockSaveData = GetStoryRocksState(),
+            questProgressData = QuestController.Instance.activeQuests,
+            handinQuestIDs = QuestController.Instance.handinQuestIDs
         };
         File.WriteAllText(saveLocation, JsonUtility.ToJson(saveData));//This line converts the saveData object to a JSON string and writes it to the save file.
     }
 
- /*   private List<StoryRocks> GetStoryRocksState()
+    private List<StoryRockSaveData> GetStoryRocksState()
     {
         List<StoryRockSaveData> storyRocksStates = new List<StoryRockSaveData>();
 
@@ -71,11 +73,11 @@ public class NewMonoBehaviourScript : MonoBehaviour
             storyRocksStates.Add(storyRockSaveData);
         }
         return storyRocksStates;
-    }*/
+    }
 
     public void LoadGame()//This method loads the game data from a file
     {
-        if(File.Exists(saveLocation))//This line checks if the save file exists.
+        if (File.Exists(saveLocation))//This line checks if the save file exists.
         {
             SaveData saveData = JsonUtility.FromJson<SaveData>(File.ReadAllText(saveLocation));//This line reads the save file and converts the JSON string back to a SaveData object.
 
@@ -84,24 +86,28 @@ public class NewMonoBehaviourScript : MonoBehaviour
             inventorycontroller.SetInventoryItems(saveData.inventorySaveData); //This line sets the inventory items in the inventory controller.
 
             //Loadcheststate
-         //   LoadChestStates(SaveData.StoryRocksSaveData);
+            LoadChestStates(saveData.storyRockSaveData);
+
+            QuestController.Instance.LoadQuestProgress(saveData.questProgressData);//This line loads the quest progress data from the save file.
+            QuestController.Instance.handinQuestIDs = saveData.handinQuestIDs;//This line sets the handin quest IDs in the quest controller.
 
         }
         else
         {
             SaveGame();//This line saves the game data if the save file does not exist.
+            inventorycontroller.SetInventoryItems(new List<InventorySaveData>()); //This line initializes the inventory with an empty list if the save file does not exist.
         }
     }
 
- /*   private void LoadChestStates(List<StoryRockSaveData> storyRocksStates)
+  private void LoadChestStates(List<StoryRockSaveData> storyRocksStates)
     {
         foreach(StoryRocks storyRock in storyRocks)
         {
-            StoryRockSaveData storyRockSaveData = storyRocksStates.FirstOrDefault(c => c.StoryRockID == storyRock.StoryRockID);
-           if(StoryRockSaveData != null)
+            StoryRockSaveData storyRockSaveData = storyRocksStates.FirstOrDefault(c => c.StoryRockID == storyRock.StoryRocksID);
+           if(storyRockSaveData != null)
            {
-                storyRock.SetOpened(StoryRockSaveData.isOpened);
+                storyRock.SetOpened(storyRockSaveData.isOpened);
            }
         }
-    }*/
+    }
 }
