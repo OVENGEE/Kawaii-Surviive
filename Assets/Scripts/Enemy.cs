@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class Enemy : MonoBehaviour
@@ -10,22 +11,27 @@ public class Enemy : MonoBehaviour
     public float detectionRange = 1.2f; // Range within which the enemy detects the character
 
     float health, maxHealth = 3f;// Maximum health of the enemy
+
+    public int damage = 1;
+
+    [Header("Loot")]
+    public List<LootItem> lootTable = new List<LootItem>(); // List of loot items that can be dropped by the enemy
     private void Awake()// Called when the script instance is being loaded
     {
         rb = GetComponent<Rigidbody2D>();// Get the Rigidbody2D component attached to this GameObject
-    } 
+    }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         target = GameObject.Find("Character").transform;// Find the character GameObject in the scene and get its Transform component
-        health = maxHealth ;// Initialize health to maximum health
+        health = maxHealth;// Initialize health to maximum health
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(PauseController.IsGamePaused)//check if the game is paused
+        if (PauseController.IsGamePaused)//check if the game is paused
         {
             moveSpeed = 0f;//stop movement  
         }
@@ -34,13 +40,13 @@ public class Enemy : MonoBehaviour
             moveSpeed = 0.5f;// Resume movement speed
         }
 
-        if(target)// check if the target (Character) is not null
+        if (target)// check if the target (Character) is not null
         {
-           
+
 
             //float angle = Mathf.Atan2(direction.y , direction.x) * Mathf.Rad2Deg;// Calculate the angle to rotate towards the target
-           // rb.rotation = angle;//rotate the enemy toward the target
-           float distanceToTarget = Vector3.Distance(transform.position, target.position);// Calculate the distance to the target
+            // rb.rotation = angle;//rotate the enemy toward the target
+            float distanceToTarget = Vector3.Distance(transform.position, target.position);// Calculate the distance to the target
 
             if (distanceToTarget <= detectionRange) // Check if the character is within range
             {
@@ -56,7 +62,7 @@ public class Enemy : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if(target && moveDirection != Vector2.zero)
+        if (target && moveDirection != Vector2.zero)
         {
             // Move the enemy towards the target
             rb.MovePosition(rb.position + moveDirection * moveSpeed * Time.fixedDeltaTime);
@@ -70,10 +76,34 @@ public class Enemy : MonoBehaviour
     public void TakeDamage(float damage)// Method to apply damage to the enemy
     {
         health -= damage;// Reduce health by the damage amount
-        if(health <= 0)// Check if health is less than or equal to zero
+        if (health <= 0)// Check if health is less than or equal to zero
         {
             // Destroy the enemy GameObject
-            Destroy(gameObject);
+            Die();
+        }
+    }
+
+    void Die()
+    {
+        // Drop loot items based on the loot table
+        foreach (LootItem lootItem in lootTable)
+        {
+            if (Random.Range(0f, 100f) <= lootItem.dropChance) // Check if the item should drop based on its drop chance
+            {
+                InstantiateLoot(lootItem.itemPrefab); // Instantiate the loot item at the enemy's position
+            }
+            break; // Exit the loop after dropping one item
+        }
+
+        Destroy(gameObject); // Destroy the enemy GameObject
+    }
+
+    void InstantiateLoot(GameObject loot)
+    {
+        if (loot)
+        {
+            GameObject droppedLoot = Instantiate(loot, transform.position, Quaternion.identity);// Instantiate the loot item at the enemy's position
+            droppedLoot.GetComponent<SpriteRenderer>().color = Color.red; // Set the color of the loot item to red
         }
     }
 }

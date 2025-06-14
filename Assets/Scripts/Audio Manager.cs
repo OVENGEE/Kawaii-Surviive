@@ -33,11 +33,11 @@ public class AudioManager : MonoBehaviour
     public AudioClip MonsterLair;
     public AudioClip ButtonClick;
 
-    private void Start()
+    /**private void Start()
     {
         musicSource.clip = Background;
         musicSource.Play();
-    }
+    }*/
 
     public void PlaySFX(AudioClip clip)
     {

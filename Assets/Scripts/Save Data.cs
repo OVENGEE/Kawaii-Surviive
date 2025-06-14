@@ -7,8 +7,13 @@ using UnityEngine;
 public class SaveData/// This class is used to save the player's data, including their position and inventory.
 {
     public Vector3 playerPosition;// The player's position in the game world.
-    public List<Inventorysavedata> inventorySaveData;// A list of items in the player's inventory.
+    public List<InventorySaveData> inventorySaveData;// A list of items in the player's inventory.
     public List<StoryRockSaveData> storyRockSaveData;// A list of story rocks that the player has encountered.
+    public List<QuestProgress> questProgressData;// A list of quests that the player has progressed in.
+
+    public List<string> handinQuestIDs;// A list of quest IDs that the player has handed in.
+    
+    
 }
 
 [System.Serializable]// This class is used to save the data of an item in the player's inventory.

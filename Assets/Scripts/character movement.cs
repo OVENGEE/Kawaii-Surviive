@@ -37,9 +37,9 @@ public class character : MonoBehaviour
         }
         else
         {
-            movespeed = 1.25f;// set movement speed
+            movespeed = 1f;// set movement speed
         }
-        if (movespeed == 1.25f && !playingFootsteps)//if the player is walking and not playing footsteps
+        if (movespeed == 1f && !playingFootsteps)//if the player is walking and not playing footsteps
         {
             StartFootsteps();//start footsteps
         }
