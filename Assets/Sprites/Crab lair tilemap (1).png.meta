@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Crab lair tilemap (1)_0: 331294270123071262
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
