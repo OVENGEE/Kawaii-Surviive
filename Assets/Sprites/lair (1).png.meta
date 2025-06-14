@@ -1,10 +1,25 @@
 fileFormatVersion: 2
-guid: d4cde2a3e036fb0438be1afb0b2dd30e
+guid: fc1bbf20e82d7584493be08fcb92f0ab
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3334789969203740263
-    second: Land tilemap 1 tes_0
+      213: -5115680557205389641
+    second: lair (1)_0
+  - first:
+      213: 1309317405264058232
+    second: lair (1)_1
+  - first:
+      213: 3545487145068378347
+    second: lair (1)_2
+  - first:
+      213: 3838528502619650924
+    second: lair (1)_3
+  - first:
+      213: 1629098430974027310
+    second: lair (1)_4
+  - first:
+      213: 9182473840037404579
+    second: lair (1)_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +52,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -51,7 +66,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 64
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -75,7 +90,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -100,13 +115,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Land tilemap 1 tes_0
+      name: lair (1)_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 86
-        width: 64
-        height: 64
+        x: 45
+        y: 63
+        width: 8
+        height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,74 +130,118 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 76ebceafecd874e20800000000000000
-      internalID: 3334789969203740263
+      spriteID: 7be766323a37109b0800000000000000
+      internalID: -5115680557205389641
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Land tilemap 1 tes_1
+      name: lair (1)_1
       rect:
         serializedVersion: 2
-        x: 64
-        y: 86
-        width: 64
-        height: 64
+        x: 48
+        y: 56
+        width: 68
+        height: 39
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 3ef6474cc63ad3a4585cc2cc78b40699
-      internalID: 1287745509
+      spriteID: 87710073e31ab2210800000000000000
+      internalID: 1309317405264058232
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Land tilemap 1 tes_2
+      name: lair (1)_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 22
-        width: 64
-        height: 64
+        x: 113
+        y: 58
+        width: 7
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 3fe7ab24b2af8fd4db12b04a9015292f
-      internalID: -159301836
+      spriteID: be8b38d06c9143130800000000000000
+      internalID: 3545487145068378347
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Land tilemap 1 tes_3
+      name: lair (1)_3
       rect:
         serializedVersion: 2
-        x: 64
-        y: 22
-        width: 64
-        height: 64
+        x: 42
+        y: 53
+        width: 17
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 800c27fd0b9027f499b93cbdff87abb8
-      internalID: -436952430
+      spriteID: c6b3bd2f551354530800000000000000
+      internalID: 3838528502619650924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lair (1)_4
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 48
+        width: 28
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e266a524468bb9610800000000000000
+      internalID: 1629098430974027310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lair (1)_5
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 52
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3af1fb28e43be6f70800000000000000
+      internalID: 9182473840037404579
       vertices: []
       indices: 
       edges: []
@@ -191,7 +250,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 0b6fb26cf6849b94caea827932a9e1f4
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -200,11 +259,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Land tilemap 1 tes_0: 3334789969203740263
-      Land tilemap 1 tes_1: 1287745509
-      Land tilemap 1 tes_2: -159301836
-      Land tilemap 1 tes_3: -436952430
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
