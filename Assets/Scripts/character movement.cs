@@ -81,15 +81,25 @@ public class character : MonoBehaviour
         animator.SetFloat("InputY", moveDirection.y);//set animator input y
         animator.SetFloat("InputX", moveDirection.x);//set animator input x
 
-
+        // After movement and animator updates
+        Vector3 aimDirection = new Vector3(input.x, input.y, 0f);
+        if (aimDirection.sqrMagnitude > 0.01f)
+        {
+            Aim.rotation = Quaternion.LookRotation(Vector3.forward, -aimDirection);
+            lastMoveDirection = input;
+        }
+        else if (lastMoveDirection.sqrMagnitude > 0.01f)
+        {
+            Aim.rotation = Quaternion.LookRotation(Vector3.forward, -lastMoveDirection);
+        }
     }
 
     public void FixedUpdate()
     {
         if (isWalking)//if the player is walking
         {
-            Vector3 vector3 = Vector3.left * input.x + Vector3.down * input.y;//calculate the direction
-            Aim.rotation = Quaternion.LookRotation(Vector3.forward, vector3);//set the rotation of the aim
+            Vector3 vector3 = new Vector3(input.x, input.y, 0f);//calculate the direction
+            Aim.rotation = Quaternion.LookRotation(Vector3.forward, -vector3);//set the rotation of the aim
         }
     }
 
@@ -103,8 +113,8 @@ public class character : MonoBehaviour
         {
             isWalking = false;//set isWalking to false
             lastMoveDirection = input;//set last move direction to input
-            Vector3 vector3 = Vector3.left * lastMoveDirection.x + Vector3.down * lastMoveDirection.y;//calculate the direction
-            Aim.rotation = Quaternion.LookRotation(Vector3.forward, vector3);//set the rotation of the aim
+            Vector3 vector3 = new Vector3(lastMoveDirection.x, lastMoveDirection.y, 0f);//calculate the direction
+            Aim.rotation = Quaternion.LookRotation(Vector3.forward, -vector3);//set the rotation of the aim
         }
         else if (moveX != 0 || moveY != 0)//if the player is moving set isWalking to true
         {
