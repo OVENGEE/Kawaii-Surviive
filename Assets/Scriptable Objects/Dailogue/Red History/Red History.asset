@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3929cbb95873f047829e9dbd195fb63, type: 3}
+  m_Name: Red History
+  m_EditorClassIdentifier: 
+  npcName: Chronicles of Crimson
+  npcPortrait: {fileID: -1878003001820090266, guid: 4615c51f10eb6a94e85bc6a304dff3fe, type: 3}
+  dailougeLines:
+  - 'The people of the Red Region were known for their political prowess and their
+    immense wealth economically and culturally among the people despite living in
+    the desert. They were the centre of the trade network between regions and were
+    a very peaceful nation. '
+  - 'They focused their resources on scientific and theological research, which allowed
+    them to effectively create an eternal water source that kept the nation sustained
+    in the harsh desert conditions and wind machines to keep cool in the harsh heat. '
+  - 'They played a huge role in helping the other regions develop their economies
+    and infrastructure at an efficient rate. However, due to their lack of military
+    forces and peaceful nature, the Sect of Mages was able to plant spies within
+    the political ranks and used the wealth of the Red nation to cripple them from
+    the inside. '
+  - "This sent the populus into a state of mania and all those that could left the
+    Red Nation to bunker up in different desolate areas around the desert, while
+    some of the populus went to their secure locations set up when the Sect first
+    came to light Many believe that due to their research, the seed for the Sect\u2019s
+    evil was able to come to fruition . "
+  - 'This gave the Mages access to the wealth that came from the Red and through
+    that they were able to attain wealth and infrastructure to run their operations '
+  typingSpeed: 0.05
+  autoProgressLines: 0101010101
+  endDialougeLines: 
+  autoProgressDelay: 1.5
+  choices: []
+  questInProgressIndex: 0
+  questCompletedIndex: 0
+  quest: {fileID: 0}

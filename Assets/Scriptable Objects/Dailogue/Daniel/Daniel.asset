@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3929cbb95873f047829e9dbd195fb63, type: 3}
+  m_Name: Daniel
+  m_EditorClassIdentifier: 
+  npcName: Daniel
+  npcPortrait: {fileID: 0}
+  dailougeLines:
+  - "Ah, welcome, traveler. You look unfamiliar... not from around here, are you?
+    Hmm, the Green region, you say? And you're here to clear the area \u2014 searching
+    for the old artefacts to unlock the true power of your brush? How fascinating."
+  - "Then you must know of the Sect of Mages and their twisted creations. They've
+    planted their cursed Crabs, drawn from the eternal water source, and now\u2026
+    the temple is sealed to us. Inaccessible. Dangerous."
+  - "If it\u2019s the history and artefacts you seek, head to the old building just
+    south of here. But be warned \u2014 that path leads through the desert, and danger
+    lurks with every shifting dune. This task is not for the faint of heart you say."
+  - Hah! I admire your confidence. May it carry you far.
+  - "Go then. Survive if you can, and keep searching the abandoned buildings. The
+    answers you seek\u2026 and perhaps our salvation\u2026 lie within the temple.
+    May your brush guide you well."
+  typingSpeed: 0.05
+  autoProgressLines: 0101010101
+  endDialougeLines: 
+  autoProgressDelay: 1.5
+  choices: []
+  questInProgressIndex: 0
+  questCompletedIndex: 0
+  quest: {fileID: 0}

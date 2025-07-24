@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3929cbb95873f047829e9dbd195fb63, type: 3}
+  m_Name: Green History
+  m_EditorClassIdentifier: 
+  npcName: Echoes of EMERALD
+  npcPortrait: {fileID: 0}
+  dailougeLines:
+  - The ancient healers of the Green tribe used their magic in order to restore life
+    to the natural world our forefathers lived in, and bring restoration to the health
+    of the very same people that lived off that land.
+  - They were a tribe of farmers that strived off the fertile soil and made green
+    armour dyes that added vitality to the soldiers. But the Sect of Mages used this
+    power to harness darkness.
+  - 'They filled the soldiers with envy for the more prominent tribes and this caused
+    them to lead a great attack on the Green nation leaving half the population wiped
+    out, and the rest enslaved while others lived as nomads. '
+  typingSpeed: 0.05
+  autoProgressLines: 010101
+  endDialougeLines: 
+  autoProgressDelay: 1.5
+  choices: []
+  questInProgressIndex: 0
+  questCompletedIndex: 0
+  quest: {fileID: 0}
